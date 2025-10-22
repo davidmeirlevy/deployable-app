@@ -1,0 +1,26 @@
+{
+  "name": "deployable-app",
+  "version": "1.0.0",
+  "description": "A simple todos API built with Fastify",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx server.ts",
+    "dev": "node --import tsx --watch server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fastify",
+    "todos",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.25.0",
+    "tsx": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1"
+  }
+}
